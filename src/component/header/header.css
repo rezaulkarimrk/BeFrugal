@@ -1,0 +1,173 @@
+.header, .auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-title h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+button.join-btn.universal-btn {
+    font-size: 18;
+    font-weight: 400;
+}
+.login ::-webkit-input-placeholder{
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.7;
+}
+
+.universal-btn{
+    display: inline-block;
+    min-height: 38px;
+    padding: 0 20px;
+    padding-top: 1px;
+    min-width: 140px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: .31px;
+    line-height: 19px;
+    text-transform: none;
+    text-decoration: none;
+    background: #f63;
+    border-radius: 2px;
+    border: 1px solid #e55428;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 0 #e55428;
+}
+.universal-btn:hover{
+    background: #e55428;
+    border: 1px solid #ca461e;
+    box-shadow: 0 2px 0 0 #ca461e;
+}
+.join-btn {
+    height: 0;
+    padding: 0;
+    width: 0;
+    min-width: 0;
+}
+.login-btn, .join-btn {
+    margin: 7px 7px;
+    margin-top: 19px;
+    font-size: 19px;
+    font-weight: 600;
+    min-width: 158px;
+}
+
+.submit-btn .login-input{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.login input{
+    padding: 3px 6px;
+    background: #FFFFFF;
+    color: #2196F3;
+    font-size: 1em;
+    text-transform: none;
+}
+button.btn.login-btn {
+    color: #2196F3;
+    box-shadow: none;
+}
+.login-btn:hover{
+    background: #E3EFF9;
+    color: #2196F3;
+    box-shadow: 0px 0px 0px;
+}
+.join-btn{
+    height: 0;
+}
+
+.header-closs {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.submit-btn {
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.login-input  {
+    padding: 6px !important;
+    box-shadow: inset 0 1px 3px 0 rgb(0 0 0 / 15%);
+}
+
+.or {
+    text-align: center;
+    font-size: 21px;
+    color: #7f7f7f;
+}
+.login-form {
+    width: 86%;
+    margin-left: 7%;
+}
+
+.main-logo img {
+    width: 195px;
+}
+
+img.sub-logo {
+    width: 30%;
+}
+
+.join-title {
+    color: #03034c;
+    font-size: 30px !important;
+}
+
+p.join-paragrap {
+    text-align: center;
+    font-size: 19px;
+}
+
+.have-account {
+    text-align: right;
+    padding: 5px 8px 0 0;
+    background-color: #bbdefb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #4e4b4b;
+    padding-bottom: 10px;
+}
+
+.footer-check-box, .condtion {
+    text-align: center;
+    color: #b1aaaa;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-footer {
+    margin-left: 10%;
+    margin-top: 29px;
+    margin-bottom: -35px;
+}
+
+.condtion {
+    margin-top: 20px;
+}
+
+.condtion a {
+    text-decoration: none;
+}
+
+.condtion a:hover {
+    text-decoration: underline;
+}
+.modal-dialog {
+    margin-top: 50px;
+}
